@@ -28,22 +28,21 @@ function Header(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/components/">Sobre Nosotros</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
+              <NavLink href="https://www.codemake.uy/">
+                Agencia Creativa
               </NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                Soporte
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
+                <DropdownItem>Contacto Presupuesto</DropdownItem>
+                <DropdownItem>Tengo una preunta</DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>

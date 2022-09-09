@@ -13,7 +13,7 @@ const ItemCard = (props) => {
   }}
 >
   <CardHeader>
-    Header
+    
   </CardHeader>
   <img src={img} />
   <CardBody>
